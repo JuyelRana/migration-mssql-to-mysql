@@ -3,16 +3,16 @@ import pymssql
 import mysql.connector
 
 # TEMS DB Info
-temsDbHost = '172.16.0.43\MSSQLSERVER2022'
-temsDbName = 'TEMS2-UAT-T206'
-temsDbUser = 'sa'
-temsDbPass ='enzan'
+temsDbHost = '****'
+temsDbName = '*****'
+temsDbUser = '*****'
+temsDbPass ='******'
 
 # enTIMS DB Info
-enTIMSDbHost = '172.16.0.43'
-enTIMSDbName = 'entims_tems'
-enTIMSDbUser = 'entims'
-enTIMSDbPass = 'entims'
+enTIMSDbHost = '******'
+enTIMSDbName = '*****'
+enTIMSDbUser = '*****'
+enTIMSDbPass = '*****'
 
 # TEMS DB Connection
 temsConnection = pymssql.connect(temsDbHost, temsDbUser, temsDbPass, temsDbName) 
